@@ -1,0 +1,23 @@
+{
+  "version": "0.1.61",
+  "tag": "v0.1.61",
+  "downloadBase": "https://file1-cn.ugnas.com/nas-cli",
+  "assets": {
+    "darwin-amd64": "unc-v0.1.61-darwin-amd64.tar.gz",
+    "darwin-arm64": "unc-v0.1.61-darwin-arm64.tar.gz",
+    "linux-amd64": "unc-v0.1.61-linux-amd64.tar.gz",
+    "linux-arm64": "unc-v0.1.61-linux-arm64.tar.gz",
+    "windows-amd64": "unc-v0.1.61-windows-amd64.zip",
+    "windows-arm64": "unc-v0.1.61-windows-arm64.zip"
+  },
+  "checksums": {
+    "unc-v0.1.61-darwin-amd64.tar.gz": "eed7a02782d868fd9ff9533711ad00f369b2f0f0fd1ebb4ba9e113be1b5a0a28",
+    "unc-v0.1.61-darwin-arm64.tar.gz": "6da5570f2fa23d4f0f5d3f1434e38d3c399e7c52f40325ac985f9ab4d31dcb91",
+    "unc-v0.1.61-linux-amd64.tar.gz": "81953945b310dbfa3f748c2fe7d1d4f5424754c967fd2dd5d377f72921eff8d5",
+    "unc-v0.1.61-linux-arm64.tar.gz": "bd6c2185c854cec65cd704cac7f79bdb9229b9c00e30fd9d0db492496948b77b",
+    "unc-v0.1.61-windows-amd64.zip": "392aed492b19263a4e4b1a861d056f73b183e137d35f381735f4ddebe8b1b8e4",
+    "unc-v0.1.61-windows-arm64.zip": "a7d98453ffda2deb011c0c3068565b5a648d3d1609d559ae76503475ffce696c",
+    "unc-skills-v0.1.61.zip": "354f455637c9909f09232f8f54670f31188e88b2e2984f19d1bc1d584b016ce8"
+  },
+  "skillsAsset": "unc-skills-v0.1.61.zip"
+}

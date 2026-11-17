@@ -1,0 +1,54 @@
+{
+  "name": "dsh-ugreen-nas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH plugin for UGreen NAS via the official unc CLI",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-plugin-manager"
+      ],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "skills",
+    "assets",
+    "locale",
+    "docs",
+    "README.md",
+    "AGENTS.md",
+    "icon.svg",
+    "cordis.patch.yml"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.2-rc.2 <0.3.0"
+  },
+  "dependencies": {
+    "tar": "^7.4.3",
+    "yauzl": "^3.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+- insert:
+    - id: ugreen-nas
+      name: dsh-ugreen-nas
+      config:
+        versionPolicy: latest
+        autoCheckHours: 24

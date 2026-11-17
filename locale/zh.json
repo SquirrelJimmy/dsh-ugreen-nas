@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "绿联云 NAS",
+    "description": "通过官方 unc CLI 管理绿联 NAS 的文件、Docker、下载、存储、应用与系统状态。"
+  }
+}
